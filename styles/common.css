@@ -19,21 +19,27 @@ body {
 }
 
 header {
-    height: 200px;
+    height: 12vh;
     width: 100vw;
     background: lightcyan;
 }
 
 main {
-    height: 75vh;
+    height: 88vh;
     width: 100vw;
     background: gray;
 }
 
 section {
-    height: 50vh;
+    height: 70vh;
     width: 100vw;
     background: lightcoral;
+}
+
+footer {
+    height: 35vh;
+    width: 100vw;
+    background: lightskyblue;
 }
 
 
