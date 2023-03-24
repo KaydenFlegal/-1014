@@ -152,9 +152,6 @@ section {
     justify-content: center;
 }
 
-.number-wrapper{
-    border-bottom: 3px solid #055C0E;
-}
 
 input[type=text] {
     padding: 12px 20px;
