@@ -23,6 +23,10 @@ p {
 
 /* typography */
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 /* layout styles */
 
 /*navbar css*/
@@ -182,11 +186,10 @@ footer {
     background: white;
     border-top: 5px solid #055C0E;
     display: grid;
-    grid-template-rows: 1fr 0.5fr 3fr 0.5fr;
+    grid-template-rows: .5fr 0.5fr 1fr 0.5fr;
 }
 
 .logo-container {
-    background: blue;
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -197,17 +200,16 @@ footer {
 }
 
 .links-container {
-    background: green;
+
 }
 
 .contact-container {
-    background: red;
+
     display: flex;
     justify-content: space-between;
 }
 
 .contact-container > .office-phone {
-    background: yellow;
     margin-left: 10px;
 
 }
@@ -220,23 +222,45 @@ footer {
 .contact-container > .office-phone hr{
     height: 3px;
     width: 120px;
-    background-color:#055C0E;
+    background-color: #055C0E;
     border:#055C0E;
 }
 
 .contact-container > .adress{
     
+    margin-left: 10px;
+}
+
+.contact-container > .adress p {
+    text-align: center;
+}
+
+.contact-container > .adress hr{
+    height: 3px;
+    width: 120px;
+    background-color:#055C0E;
+    border:#055C0E;
 }
 
 .contact-container > .office-fax{
-    background: yellow;
+ 
     margin-right: 10px;
 
 }
 
-.contact-container > .office-fax:nth-child(1) {
+.contact-container > .office-fax p {
     text-align: center;
+}
 
+.contact-container > .office-fax hr{
+    height: 3px;
+    width: 120px;
+    background-color:#055C0E;
+    border:#055C0E;
+}
+
+.copywrite-container p {
+    text-align: center;
 }
 
 /* footer styles */
