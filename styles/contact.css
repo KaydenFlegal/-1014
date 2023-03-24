@@ -126,6 +126,21 @@ section {
     margin-bottom: 30px;
 }
 
+.name > .form-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
+}
+}
+
+.number-wrapper > .form-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
+}
+
 /* layout styles */
 
 /* main section styles */
