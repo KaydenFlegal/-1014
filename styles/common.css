@@ -1,5 +1,9 @@
 /* typography */
-
+h1 {
+    font-family: cambria, sans-serif;
+    color: #055C0E;
+    size: 80pt;
+}
 
 /* typography */
 
