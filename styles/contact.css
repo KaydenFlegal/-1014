@@ -23,6 +23,11 @@ p {
 
 /* typography */
 
+.spacer {
+    width: 100vw;
+    height: 20vh;
+}
+
 body::-webkit-scrollbar {
     display: none;
 }
@@ -110,15 +115,19 @@ main > .contact-container{
 }
 
 section {
-    height: 70vh;
+    height: 100vh;
     width: 100vw;
-    background: lightcoral;
+    display: flex;
+    justify-content: center;
 }
 
 .form {
     display: flex;
     justify-content: space-around;
     padding: 1.5rem 2rem;
+    background: white;
+    width: 90vw;
+    border: 10px solid #055C0E;
 }
 
 .form-group {
@@ -132,7 +141,7 @@ section {
     display: flex;
     justify-content: center;
 }
-}
+
 
 .number-wrapper > .form-group {
     display: grid;
