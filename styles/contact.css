@@ -158,6 +158,10 @@ input[type=text] {
     padding: 12px 20px;
 }
 
+
+.message-wrapper {
+    width: 100px;
+}
 /* layout styles */
 
 /* main section styles */
