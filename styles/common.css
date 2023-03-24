@@ -178,6 +178,31 @@ section {
 
 /* main section styles */
 
+/* section styles */
+
+section  hr {
+    height: 3px;
+    width: 1000px;
+    background-color: #055C0E;
+    border:#055C0E;
+}
+
+.cards-wrapper {
+    width: 90vw;
+    height: 700px;
+    background: green;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-container {
+
+}
+
+/* section styles */
+
 /* footer styles */
 
 footer {
