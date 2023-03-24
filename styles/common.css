@@ -53,7 +53,7 @@ nav > .navlink {
     height: 65px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style: none;
     margin-top: 10px;
     padding: 0%;
@@ -133,11 +133,40 @@ section {
     height: 448px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
 }
 
 .about-container {
-    background: green;
+    background: inherit;
 }
+
+.about-container h2{
+   display: flex;
+   justify-content: center;
+   border-bottom: 3px solid #055C0E;
+   padding: 5px;
+}
+
+.about-container p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+ }
+
+ .about-container a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15pt;
+    color: #055C0E;
+ }
+
+ .btn-container {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+ }
 
 .video-container {
     border: 3px;
