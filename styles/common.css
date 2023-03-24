@@ -173,6 +173,41 @@ footer {
 
 .contact-container {
     background: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-container > .office-phone {
+    background: yellow;
+    margin-left: 10px;
+
+}
+
+.contact-container > .office-phone:nth-child(1) {
+    text-align: center;
+
+}
+
+.contact-container > .office-phone hr{
+    height: 3px;
+    width: 120px;
+    background-color:#055C0E;
+    border:#055C0E;
+}
+
+.contact-container > .adress{
+    
+}
+
+.contact-container > .office-fax{
+    background: yellow;
+    margin-right: 10px;
+
+}
+
+.contact-container > .office-fax:nth-child(1) {
+    text-align: center;
+
 }
 
 /* footer styles */
