@@ -1,3 +1,7 @@
+body {
+    background: #f2f2f2;
+}
+
 /* typography */
 
 
@@ -105,9 +109,8 @@ main {
 }
 
 section {
-    height: 70vh;
+    height: 90vh;
     width: 100vw;
-    background: lightcoral;
 }
 
 
@@ -190,15 +193,28 @@ section  hr {
 .cards-wrapper {
     width: 90vw;
     height: 700px;
-    background: green;
     margin: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
 
 .cards-container {
+    display: grid;
+    gap: 30px;
+    grid-auto-flow: column;
+    grid-auto-columns: 32%;
+}
 
+.card > img {
+    inline-size: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border: 3px solid #707070;
+}
+
+.card > p {
+    text-align: center;
 }
 
 /* section styles */
