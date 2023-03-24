@@ -1,3 +1,7 @@
+body {
+    background: #f2f2f2;
+}
+
 /* typography */
 
 
@@ -102,12 +106,12 @@ main {
     height: 88vh;
     width: 100vw;
     background: #f2f2f2;
+    margin-bottom: 40px;
 }
 
 section {
-    height: 70vh;
+    height: 90vh;
     width: 100vw;
-    background: lightcoral;
 }
 
 
@@ -195,6 +199,45 @@ section {
 }
 
 /* main section styles */
+
+/* section styles */
+
+section  hr {
+    height: 3px;
+    width: 1400px;
+    background-color: #055C0E;
+    border:#055C0E;
+}
+
+.cards-wrapper {
+    width: 90vw;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 40px;
+}
+
+.cards-container {
+    display: grid;
+    gap: 30px;
+    grid-auto-flow: column;
+    grid-auto-columns: 32%;
+}
+
+.card > img {
+    inline-size: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border: 3px solid #707070;
+}
+
+.card > p {
+    text-align: center;
+}
+
+/* section styles */
 
 /* footer styles */
 
