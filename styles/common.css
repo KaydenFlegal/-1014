@@ -1,5 +1,27 @@
+/* layout styles */
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
 header {
     height: 200px;
     width: 100vw;
-    background: white;
+    background: lightcyan;
 }
+
+main {
+    height: 75vh;
+    width: 100vw;
+    background: gray;
+}
+
+section {
+    height: 50vh;
+    width: 100vw;
+    background: lightcoral;
+}
+
+
+/* layout styles */
