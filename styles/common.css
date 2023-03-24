@@ -97,7 +97,7 @@ header {
 main {
     height: 88vh;
     width: 100vw;
-    background: gray;
+    background: #f2f2f2;
 }
 
 section {
@@ -123,14 +123,14 @@ section {
 .title-container {
     width: 95vw;
     height: 200px;
-    background: blue;
+    display: flex;
+    justify-content: center;
+    font-size: 20pt;
 }
 
 .bottom-section-wrapper {
     width: 95vw;
     height: 448px;
-    background: yellow;
-
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -140,7 +140,7 @@ section {
 }
 
 .video-container {
-    background: red;
+    border: 3px;
 }
 
 /* main section styles */
