@@ -106,6 +106,7 @@ main {
     height: 88vh;
     width: 100vw;
     background: #f2f2f2;
+    margin-bottom: 40px;
 }
 
 section {
@@ -203,7 +204,7 @@ section {
 
 section  hr {
     height: 3px;
-    width: 1000px;
+    width: 1400px;
     background-color: #055C0E;
     border:#055C0E;
 }
@@ -215,6 +216,7 @@ section  hr {
     display: flex;
     justify-content: center;
     align-items: start;
+    margin-top: 40px;
 }
 
 .cards-container {
