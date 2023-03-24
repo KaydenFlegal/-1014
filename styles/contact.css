@@ -1,0 +1,293 @@
+/* typography */
+
+
+h1 {
+    font-family: 'cambria', sans-serif;
+    color: #055C0E;
+    size: 80pt;
+}
+
+h2 {
+    font-family: 'lato', sans-serif;
+    color: #055C0E;
+    size: 40pt;
+}
+
+p {
+    font-family: 'lato', sans-serif;
+    color: black;
+    size: 28pt;
+}
+
+
+
+/* typography */
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* layout styles */
+
+/*navbar css*/
+header > nav{
+    width: 100%;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: .3fr 1fr;
+    font-family: 'cambria'
+}
+nav > .container > .logo {
+    float: left;
+    width: auto;
+    height: auto;
+}
+nav > .container > .logo img{
+   width: 60px;
+   margin: 10px;
+}
+
+
+nav > .navlink {
+    height: 65px;
+    float: right;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 10px;
+    padding: 0%;
+}
+
+nav > ul li{
+    text-align: center;
+    width: auto;
+    height: 65px;
+    padding: 0;
+}
+
+nav > ul li a {
+    text-decoration: none;
+   color: #055C0E;
+   font-size: 1.2rem;
+} 
+
+nav > ul li a:hover{
+    color: black;
+ } 
+
+.active a{
+    border-bottom: 3px solid #055C0E;
+    padding: -10px;
+    border-radius: 3px;
+ } 
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 12vh;
+    width: 100vw;
+    background: white;
+    border-bottom: 5px solid #055C0E;
+}
+
+main {
+    height: 88vh;
+    width: 100vw;
+    background: #f2f2f2;
+}
+
+main > .contact-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+section {
+    height: 70vh;
+    width: 100vw;
+    background: lightcoral;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* layout styles */
+
+/* main section styles */
+
+.main-wrapper {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.title-container {
+    width: 95vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    font-size: 20pt;
+}
+
+.bottom-section-wrapper {
+    width: 95vw;
+    height: 448px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.about-container {
+    background: inherit;
+}
+
+.about-container h2{
+   display: flex;
+   justify-content: center;
+   border-bottom: 3px solid #055C0E;
+   padding: 5px;
+   font-family: 'lato';
+}
+
+.about-container p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'lato';
+ }
+
+ .about-container a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15pt;
+    color: #055C0E;
+    font-family: 'lato';
+ }
+
+ .btn-container {
+    color: white;
+    width: 300px;
+    border: 3px solid #055C0E;
+    border-radius: 2px;
+    margin-top: 210px;
+ }
+
+ .btn-container a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 15px;
+    font-family:'lato';
+ }
+
+ .help-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+.video-container {
+    border: 3px;
+}
+
+/* main section styles */
+
+/* footer styles */
+
+footer {
+    height: 50vh;
+    width: 100vw;
+    background: white;
+    border-top: 5px solid #055C0E;
+    display: grid;
+    grid-template-rows: .5fr 0.5fr 1fr 0.5fr;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.logo-container img {
+    width: 60px;
+}
+
+.links-container {
+
+}
+
+.contact-container {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-container > .office-phone {
+    margin-left: 10px;
+
+}
+
+.contact-container > .office-phone:nth-child(1) {
+    text-align: center;
+
+}
+
+.contact-container > .office-phone hr{
+    height: 3px;
+    width: 120px;
+    background-color: #055C0E;
+    border:#055C0E;
+}
+
+.contact-container > .adress{
+    
+    margin-left: 10px;
+}
+
+.contact-container > .adress p {
+    text-align: center;
+}
+
+.contact-container > .adress hr{
+    height: 3px;
+    width: 120px;
+    background-color:#055C0E;
+    border:#055C0E;
+}
+
+.contact-container > .office-fax{
+ 
+    margin-right: 10px;
+
+}
+
+.contact-container > .office-fax p {
+    text-align: center;
+}
+
+.contact-container > .office-fax hr{
+    height: 3px;
+    width: 120px;
+    background-color:#055C0E;
+    border:#055C0E;
+}
+
+.copywrite-container p {
+    text-align: center;
+}
+
+/* footer styles */
