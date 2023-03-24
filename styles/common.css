@@ -32,12 +32,13 @@ header > nav{
     line-height: 65px;
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: .3fr 1fr;
 }
 nav > .container > .logo {
     float: left;
     width: auto;
     height: auto;
+    border-right: 3px solid gray;
 }
 nav > .container > .logo img{
    width: 60px;
@@ -59,16 +60,27 @@ nav > .navlink {
 }
 
 nav > ul li{
+    text-align: center;
     width: auto;
     height: 65px;
     padding: 0;
-    padding-right: 3rem;
 }
 
 nav > ul li a {
+    text-decoration: none;
    color: #055C0E;
-   font-size: 1rem;
+   font-size: 1.2rem;
 } 
+
+nav > ul li a:hover{
+    color: black;
+ } 
+
+.active a{
+    border-bottom: 3px solid #055C0E;
+    padding: -10px;
+    border-radius: 3px;
+ } 
 
 body {
     margin: 0px;
@@ -78,7 +90,7 @@ body {
 header {
     height: 12vh;
     width: 100vw;
-    background: lightcyan;
+    background: white;
     border-bottom: 5px solid #055C0E;
 }
 
