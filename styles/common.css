@@ -42,12 +42,17 @@ nav > .navlink {
     padding: 0%;
 }
 
-nav > .navlink ul li{
+nav > ul li{
     width: auto;
     height: 65px;
     padding: 0;
     padding-right: 3rem;
 }
+
+nav > ul li a {
+   color: #055C0E;
+   font-size: 1rem;
+} 
 
 body {
     margin: 0px;
@@ -58,7 +63,7 @@ header {
     height: 12vh;
     width: 100vw;
     background: lightcyan;
-    border-bottom: 3px solid #055C0E;
+    border-bottom: 5px solid #055C0E;
 }
 
 main {
