@@ -31,3 +31,37 @@ footer {
 
 
 /* layout styles */
+
+/* main section styles */
+
+.main-wrapper {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-container {
+    width: 95vw;
+    height: 200px;
+    background: blue;
+}
+
+.bottom-section-wrapper {
+    width: 95vw;
+    height: 448px;
+    background: yellow;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-container {
+    background: green;
+}
+
+.video-container {
+    background: red;
+}
+
+/* main section styles */
