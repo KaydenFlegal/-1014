@@ -136,10 +136,31 @@ section {
 /* footer styles */
 
 footer {
-    height: 45vh;
+    height: 50vh;
     width: 100vw;
     background: white;
     border-top: 5px solid #055C0E;
+    display: grid;
+    grid-template-rows: 1fr 0.5fr 3fr 0.5fr;
+}
+
+.logo-container {
+    background: blue;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.logo-container img {
+    width: 60px;
+}
+
+.links-container {
+    background: green;
+}
+
+.contact-container {
+    background: red;
 }
 
 /* footer styles */
