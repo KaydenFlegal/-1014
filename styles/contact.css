@@ -141,6 +141,10 @@ section {
     justify-content: center;
 }
 
+.number-wrapper{
+    border-bottom: 3px solid #055C0E;
+}
+
 /* layout styles */
 
 /* main section styles */
