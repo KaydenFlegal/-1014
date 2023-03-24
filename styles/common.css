@@ -89,11 +89,7 @@ section {
     background: lightcoral;
 }
 
-footer {
-    height: 35vh;
-    width: 100vw;
-    background: lightskyblue;
-}
+
 
 
 /* layout styles */
@@ -131,3 +127,14 @@ footer {
 }
 
 /* main section styles */
+
+/* footer styles */
+
+footer {
+    height: 45vh;
+    width: 100vw;
+    background: white;
+    border-top: 5px solid #055C0E;
+}
+
+/* footer styles */
