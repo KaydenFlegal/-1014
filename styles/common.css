@@ -1,9 +1,25 @@
 /* typography */
+
+
 h1 {
-    font-family: cambria, sans-serif;
+    font-family: 'cambria', sans-serif;
     color: #055C0E;
     size: 80pt;
 }
+
+h2 {
+    font-family: 'lato', sans-serif;
+    color: #055C0E;
+    size: 40pt;
+}
+
+p {
+    font-family: 'lato', sans-serif;
+    color: black;
+    size: 28pt;
+}
+
+
 
 /* typography */
 
@@ -78,11 +94,7 @@ section {
     background: lightcoral;
 }
 
-footer {
-    height: 35vh;
-    width: 100vw;
-    background: lightskyblue;
-}
+
 
 
 /* layout styles */
@@ -120,3 +132,14 @@ footer {
 }
 
 /* main section styles */
+
+/* footer styles */
+
+footer {
+    height: 45vh;
+    width: 100vw;
+    background: white;
+    border-top: 5px solid #055C0E;
+}
+
+/* footer styles */
